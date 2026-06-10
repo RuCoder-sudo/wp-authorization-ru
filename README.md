@@ -101,7 +101,7 @@ git clone https://github.com/RuCoder-sudo/wp-authorization-ru.git
 
 Перейдите в **Настройки → Авторизация RU** и настройте нужные провайдеры.
 
-### 🟠 Яндекс ID
+### 🔵 Яндекс ID
 1. [oauth.yandex.ru](https://oauth.yandex.ru/) → «Зарегистрировать приложение» → Тип: **Веб-сервисы**
 2. Права: `login:info`, `login:email`
 3. Redirect URI: скопируйте из настроек плагина (`/wp-json/wp-auth-ru/v1/yandex/callback`)
@@ -110,16 +110,16 @@ git clone https://github.com/RuCoder-sudo/wp-authorization-ru.git
 1. [o2.mail.ru/app](https://o2.mail.ru/app/) → «Добавить приложение» → Тип: **Сайт**
 2. Redirect URI: `/wp-json/wp-auth-ru/v1/mailru/callback`
 
-### 💙 ВКонтакте
+### 🔵 ВКонтакте
 1. [dev.vk.com](https://dev.vk.com/) → «Мои приложения» → «Создать» → Тип: **Веб-сайт**
 2. В настройках приложения включите доступ к **email**
 3. Redirect URI: `/wp-json/wp-auth-ru/v1/vk/callback`
 
-### 🔷 Rambler
+### 🔵 Rambler
 1. [id.rambler.ru/apps](https://id.rambler.ru/apps) → «Добавить приложение» → Тип: **Веб-сайт**
 2. Redirect URI: `/wp-json/wp-auth-ru/v1/rambler/callback`
 
-### 🟣 MAX Мессенджер
+### 🔵 MAX Мессенджер
 
 MAX использует Mini App — не стандартный OAuth:
 
